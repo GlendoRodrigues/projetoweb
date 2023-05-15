@@ -1,40 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fut Star</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Fut Star</title>
+</head>
+
+<body>
+  <div class="barra-topo"> </div>
+  <div class="container">
     <header>
       <h1>Fut Star</h1>
-      <img src="logo.png" alt="imagem exmplo">
+      <a href="index.html"><img src="assets/imagens/logo.png" alt="imagem exmplo"  width="100" height="100"></a>
     </header>
     <nav>
       <ul>
-        <li><a href="index.html">Página Inicial</a></li>
-        <li><a href="detalhe.html">Página de Detalhes</a></li>
-        <li><a href="autor.html">Página sobre o Autor</a></li>
-        <li><a href="adm.html">Administrador</a></li>
+        <li><a href="index.html">Página Inicial</a>
+          <ul>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+          </ul>
+        </li>
+        <li><a href="detalhe.html">Página de Detalhes</a>
+          <ul>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+          </ul>
+        </li>
+        <li><a href="autor.html">Página sobre o Autor</a>
+          <ul>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+          </ul>
+        </li>
+        <li><a href="adm.html">Administrador</a>
+          <ul>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+            <li><a href=".">subtop</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
     <main>
-      <h2>PRODUTOS</h2>
-      <section>
+      <section class="banner">
+        <h2>PRODUTOS</h2>
+      </select>
+      <section class="produtos">
         <article>
           <h3>superfly8</h3>
-          <img src="superfly8.jpg" alt="Imagem do superfly">
-          <p>Desbloqueie o segredo da velocidade com a Nike Mercurial Superfly 8 Pro. O color block nas laterais e no antepé destaca as áreas principais para driblar, passar e lançar com precisão. A placa inovadora proporciona agilidade imediata para cortes mais rápidos em alta velocidade.</p>
+          <img src="assets/imagens/superfly8.jpg" alt="Imagem do superfly">
+          <p>Desbloqueie o segredo da velocidade com a Nike Mercurial Superfly 8 Pro.</p>
+          <p class="preco">R$ 800,00</p>
+          <button>Comprar</button>
         </article>
         <article>
           <h3>FUTURE 3.4 NJR</h3>
-          <img src="22.png" alt="Imagem do FUTURE 3.4 NJR">
-          <p>Mais adaptável e confortável do que nunca, a avançada FUTURE é uma chuteira progressiva e explosiva para jogadores que moldam o jogo de acordo com sua visão e habilidade.Você não precisa usar cadarços para prender. A tecnologia FUZIONFIT+ de segunda geração se adapta ao formato do seu pé para oferecer o equilíbrio perfeito de suporte e flexibilidade em cada uma das zonas-mais importantes, garantindo ajuste e desempenho ideais, com ou sem amarração.A sola leve e reativa com a tecnologia Dynamic Motion System transfere sua energia diretamente para o campo, proporcionando tração superior para movimentos multidirecionais explosivos.As Advanced Creator Zones estão estrategicamente posicionadas na área do antepé para oferecer toque excepcional e controle de bola em alta velocidade.</p>
+          <img src="assets/imagens/22.png" alt="Imagem do FUTURE 3.4 NJR">
+          <p>Mais adaptável e confortável do que nunca, a avançada FUTURE é uma chuteira progressiva e explosiva para
+            jogadores que moldam o jogo de acordo com sua visão e habilidade.Você não precisa usar cadarços para
+            prender. A tecnologia FUZIONFIT+ de segunda geração se adapta ao formato do seu pé para oferecer o
+            equilíbrio perfeito de suporte e flexibilidade em cada uma das zonas-mais importantes, garantindo ajuste e
+            desempenho ideais, com ou sem amarração.A sola leve e reativa com a tecnologia Dynamic Motion System
+            transfere sua energia diretamente para o campo, proporcionando tração superior para movimentos
+            multidirecionais explosivos.As Advanced Creator Zones estão estrategicamente posicionadas na área do antepé
+            para oferecer toque excepcional e controle de bola em alta velocidade.</p>
+          <p class="preco">R$ 500,00</p>
+          <button>Comprar</button>
         </article>
       </section>
     </main>
     <footer>
       <p>Glendo Rodrigues</p>
+      <p>Fut Star</p>
       <p><a href="autor.html">Sobre o Autor</a></p>
     </footer>
-  </body>
+</body>
+
 </html>
